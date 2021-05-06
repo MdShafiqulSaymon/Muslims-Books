@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".namaz">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/sky_moon"
+                android:textAlignment="center"
+                android:gravity="center_horizontal">
+            </ImageView>
+
+
+            <Button
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ভূমিকা"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২ / ছালাতের সংক্ষিপ্ত নিয়ম (مختصر صفة صلاة الرسول ﷺ)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৩ / প্রয়োজনীয় সূরা সমূহ (السور الضرورية) "
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৪ / ছালাত বিষয়ে জ্ঞাতব্য (معلوماة في الصلاة) "
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/s5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:text="৫ / ত্বাহারৎ বা পবিত্রতা (الطهارة)"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/s6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৬ / আযান (الأذان) "
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৭ / ছালাতুর রাসূল (ছাঃ) (صلاة الرسول ﷺ) "
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৮ / ছালাতের বিবিধ জ্ঞাতব্য (مسائل متفرقة فى الصلاة)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="৯ / বিভিন্ন ছালাতের পরিচয় (صفة صلوات متفرقة) "
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="১০ / জরুরী দো‘আ সমূহ (الأدعية الضرورية)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center_horizontal" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

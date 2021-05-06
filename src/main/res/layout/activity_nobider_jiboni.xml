@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".nobider_jiboni">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/sky_moon"
+                android:textAlignment="center"
+                android:gravity="center_horizontal">
+            </ImageView>
+
+
+            <Button
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ১. হযরত আদম (আলাইহিস সালাম) "
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ২. হযরত নূহ (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ৩. হযরত ইদরীস (আলাইহিস সালাম) "
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ৪. হযরত হূদ (আলাইহিস সালাম) "
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/s5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:text=" ৫. হযরত ছালেহ (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/s6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ৬. হযরত ইবরাহীম (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ৭. হযরত লূত (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ৮. হযরত ইসমাঈল (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ৯. হযরত ইসহাক্ব (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ১০. হযরত ইয়াকূব (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ১১. হযরত ইউসুফ (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ১২. হযরত আইয়ূব (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ১৩. হযরত শো‘আয়েব (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ১৪-১৫. হযরত মূসা ও হারূণ (আলাইহিমাস সালাম)"
+                android:textAlignment="center"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:gravity="center_horizontal" />
+            <Button
+                android:id="@+id/s16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ১৬. হযরত ইউনুস (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/s17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ১৭. হযরত দাঊদ (আলাইহিস সালাম) "
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/s18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ১৮. হযরত সুলায়মান (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/s19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ১৯. হযরত ইলিয়াস (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/s20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ২০. হযরত আল-ইয়াসা‘ (আলাইহিস সালাম)"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/s21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ২১. হযরত যুল-কিফল (আলাইহিস সালাম) "
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/s22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ২২-২৩. হযরত যাকারিয়া ও ইয়াহ্ইয়া (আলাইহিমাস সালাম)"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/s24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ২৪. হযরত ঈসা (আলাইহিস সালাম) "
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/s25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" ২৫. হযরত মুহাম্মাদ (সাঃ) - মাক্কী জীবন"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/s25m"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="২৫.হযরত মুহাম্মাদ (সাঃ) - মাদানী জীবন"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:background="@drawable/rec_corner"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

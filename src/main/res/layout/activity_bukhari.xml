@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bukhari">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginEnd="10sp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/sky_moon"
+                android:gravity="center_horizontal"
+                android:textAlignment="center">
+
+            </ImageView>
+
+
+            <Button
+                android:id="@+id/s1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="১/ ওয়াহ্‌য়ীর সূচনা (كتاب بدء الوحى) "
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="২/ ঈমান (বিশ্বাস) (كتاب الإيمان)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৩/ আল-ইলম (ধর্মীয় জ্ঞান) (كتاب العلم)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৪/ উযূ (كتاب الوضوء)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৫/ গোসল (كتاب الغسل)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৬/ হায়েজ [ঋতুস্রাব] (كتاب الحيض)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৭/ তায়াম্মুম (كتاب التيمم)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৮/ সালাত (كتاب الصلاة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৯/ সালাতের সময়সমূহ (كتاب مواقيت الصلاة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="১০/ আযান (كتاب الأذان)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="১১/ জুমু‘আহ (كتاب الجمعة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="১২/ খাওফ (শত্রুভীতির অবস্থায় সালাত) (كتاب صلاة الخوف)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="১৩/ দুই’ঈদ (كتاب العيدين)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="১৪/ বিতর (كتاب الوتر)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="১৫/পানি প্রার্থনা (كتاب الاستسقاء)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="১৬/ সূর্যগ্রহণ (كتاب الكسوف)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="১৭/ কুরআন তিলাওয়াতের সিজদা্ (كتاب سجود القرآن)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="১৮/ সালাত ক্বাসর করা (كتاب التقصير)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="১৯/ তাহাজ্জুদ (كتاب التهجد)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="২০/ মক্কাহ ও মদীনাহর মসজিদে সালাতের মর্যাদা (كتاب فضل الصلاة فى مسجد مكة والمدينة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="২১/ সালাতের সাথে সংশ্লিষ্ট কাজ (كتاب العمل فى الصلاة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="২২/ সাহু সিজদা (كتاب السهو)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="২৩/ জানাযা (كتاب الجنائز)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="২৪/ যাকাত (كتاب الزكاة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="২৫/ হাজ্জ (كتاب الحج)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="২৬/ উমরাহ (كتاب العمرة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="২৭/ পথে আটকে পড়া ও ইহরাম অবস্থায় শিকারকারীর বিধান (كتاب المحصر)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="২৮/ ইহরাম অবস্থায় শিকার এবং অনুরূপ কিছুর বদলা (كتاب جزاء الصيد)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="২৯/ মদীনার ফাযীলাত (كتاب فضائل المدينة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৩০/ সাওম/রোযা (كتاب الصوم)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s31"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৩১/ তারাবীহর সালাত (كتاب صلاة التراويح)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s32"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৩২/ লাইলাতুল কদর-এর ফযীলত (كتاب فضل ليلة القدر)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৩৩/ ই‘তিকাফ (كتاب الاعتكاف)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৩৪/ ক্রয়-বিক্রয় (كتاب البيوع)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s35"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৩৫/ সলম (অগ্রিম ক্রয়-বিক্রয়) (كتاب السلم)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s36"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৩৬/ শুফ্‘আহ (كتاب الشفعة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s37"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৩৭/ ইজারা (كتاب الإجارة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s38"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৩৮/ হাওয়ালাত (ঋণ আদায়ের দায়িত্ব গ্রহণ করা) (كتاب الحوالات)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৩৯/ যামিন হওয়া (كتاب الكفالة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৪০/ ওয়াকালাহ (প্রতিনিধিত্ব) (كتاب الوكالة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+
+
+                android:id="@+id/s41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৪১/ চাষাবাদ (كتاب المزارعة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৪২/ পানি সেচ (كتاب المساقاة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s43"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৪৩/ ঋণ গ্রহণ, ঋণ পরিশোধ, নিষেধাজ্ঞা আরোপ ও দেউলিয়া ঘোষণা (كتاب فى الاستقراض)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s44"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৪৪/ ঝগড়া-বিবাদ মীমাংসা (كتاب الخصومات)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৪৫/ পড়ে থাকা জিনিস উঠিয়ে নেয়া (كتاب فى اللقطة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s46"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৪৬/ অত্যাচার, কিসাস ও লুণ্ঠন (كتاب المظالم)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s47"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৪৭/ অংশীদারিত্ব (كتاب الشركة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s48"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৪৮/ বন্ধক (كتاب الرهن)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s49"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৪৯/ ক্রীতদাস আযাদ করা (كتاب العتق)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৫০/ চুক্তিবদ্ধ দাসের বর্ণনা (كتاب المكاتب)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s51"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৫১/ হিবা ও এর ফযীলত (كتاب الهبة وفضلها والتحريض عليها)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s52"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৫২/ সাক্ষ্যদান (كتاب الشهادات)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s53"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৫৩/ বিবাদ মীমাংসা (كتاب الصلح)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s54"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৫৪/ শর্তাবলী (كتاب الشروط)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s55"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৫৫/ ওয়াসিয়াত (كتاب الوصايا)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৫৬/ জিহাদ ও যুদ্ধকালীন আচার ব্যবহার (كتاب الجهاد والسير)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৫৭/ খুমুস (এক পঞ্চমাংশ) (كتاب فرض الخمس)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s58"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৫৮/ জিযিয়াহ্‌ কর ও সন্ধি স্থাপন (كتاب الجزية والموادعة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s59"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৫৯/ সৃষ্টির সূচনা (كتاب بدء الخلق)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৬০/ আম্বিয়া কিরাম ('আঃ) (كتاب أحاديث الأنبياء)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s61"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৬১/ মর্যাদা ও বৈশিষ্ট্য (كتاب المناقب)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s62"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৬২/ সাহাবীগণ [রাযিয়াল্লাহ ‘আনহুম]-এর মর্যাদা (كتاب فضائل أصحاب النبى ﷺ)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s63"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৬৩/ আনসারগণ [রাযিয়াল্লাহু ‘আনহুম]-এর মর্যাদা (كتاب مناقب الأنصار)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s64"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৬৪/ মাগাযী [যুদ্ধ] (كتاب المغازى)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s65"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৬৫/ কুরআন মাজীদের তাফসীর (كتاب التفسير)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s66"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৬৬/ আল-কুরআনের ফাযীলাতসমূহ (كتاب فضائل القرآن)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s67"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৬৭/ বিয়ে (كتاب النكاح)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s68"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৬৮/ ত্বলাক (كتاب الطلاق)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s69"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৬৯/ ভরণ-পোষণ (كتاب النفقات)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৭০/ খাওয়া সংক্রান্ত (كتاب الأطعمة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s71"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৭১/ আক্বীক্বাহ (كتاب العقيقة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s72"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৭২/ যবহ ও শিকার (كتاب الذبائح والصيد )"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s73"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৭৩/ কুরবানী (كتاب الأضاحي)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s74"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৭৪/ পানীয় (كتاب الأشربة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s75"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৭৫/ রুগী (كتاب المرضى)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s76"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৭৬/ চিকিৎসা (كتاب الطب)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s77"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৭৭/ পোশাক (كتاب اللباس)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s78"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৭৮/ আচার-ব্যবহার (كتاب الأدب)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s79"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৭৯/ অনুমতি প্রার্থনা (كتاب الاستئذان)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৮০/ দু‘আসমূহ (كتاب الدعوات)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s81"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৮১/ সদয় হওয়া (كتاب الرقاق)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s82"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৮২/ তাকদীর (كتاب القدر)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s83"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৮৩/ শপথ ও মানত (كتاب الأيمان والنذور)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s84"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৮৪/ শপথের কাফফারাসমূহ (كتاب كفارات الأيمان)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s85"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৮৫/ ফারায়িয (كتاب الفرائض)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s86"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৮৬/ দন্ডবিধি (كتاب الحدود)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s87"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৮৭/ রক্তপণ (كتاب الديات)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s88"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৮৮/ আল্লাহদ্রোহী ও ধর্মত্যাগীদেরকে তাওবাহর প্রতি আহবান ও তাদের সঙ্গে যুদ্ধ করা (كتاب استتابة المرتدين والمعاندين وقتالهم)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s89"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৮৯/ বল প্রয়োগের মাধ্যমে বাধ্য করা (كتاب الإكراه)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৯০/ কূটচাল অবলম্বন (كتاب الحيل)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s91"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৯১/ স্বপ্নের ব্যাখ্যা করা (كتاب التعبير)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s92"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৯২/ ফিতনা (كتاب الفتن)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s93"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৯৩/ আহ্‌কাম (كتاب الأحكام)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s94"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৯৪/ কামনা (كتاب التمنى)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s95"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৯৫/ 'খবরে ওয়াহিদ' গ্রহণযোগ্য (كتاب أخبار الآحاد)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s96"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৯৬/ কুরআন ও সুন্নাহকে শক্তভাবে ধরে থাকা (كتاب الاعتصام بالكتاب والسنة)"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/s97"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/rec_corner"
+                android:gravity="center_horizontal"
+                android:text="৯৭/ তাওহীদ (كتاب التوحيد)"
+                android:textAlignment="center"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

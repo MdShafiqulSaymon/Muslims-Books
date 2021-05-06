@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_list"
+    android:weightSum="19"
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@drawable/bg_detail"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="বিসমিল্লাহির রাহমানির রাহীম( بسم الله الرحمن الرحيم)"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:textAlignment="center"
+        android:gravity="center_horizontal">
+    </TextView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:weightSum="2">
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/all_sura"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:background="@drawable/ic_fab_quran"
+            app:backgroundTint="@color/teal_700"
+            app:backgroundTintMode="multiply"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/Namaz"
+            android:layout_margin="15dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@drawable/ic_mosque"
+            app:backgroundTint="@color/teal_700"
+            app:backgroundTintMode="multiply"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="আল কুরআন"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="নামাজ শিক্ষা"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:weightSum="2">
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/bukhari"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_margin="15dp"
+            android:padding="10dp"
+            android:background="@drawable/bukhari_sharif"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:id="@+id/dua"
+            android:layout_margin="15dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@drawable/praying"
+            app:backgroundTint="@color/teal_700"
+            app:backgroundTintMode="multiply"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="বুখারী শরীফ"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:text="দো'য়া সমূহ"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/mohanobi"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/nobi"
+            app:backgroundTint="@color/white"
+            app:backgroundTintMode="multiply"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
